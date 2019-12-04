@@ -1,36 +1,65 @@
-#background{
+.clear {
+  clear: both;
+}
+body{
+  width: 1366px;
+}
+#left{
   background-image:url(https://andromeloji.files.wordpress.com/2015/08/gc3b6kyc3bczc3bc.gif?w=356);
-  width:350px;
+  display: inline-block;
+  float:left;
   height:100%;
 }
 a{
   color: white;
   text-decoration: none;
 }
-.background-content{
+.left-content{
   color: white;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  font-size: 21px;
+  font-size: 23px;
   padding-top: 250px;
-}
-.background-menu{
-  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 19px;
-  padding-top: 50px;
 }
-.background-menu li{
+.left-menu{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  padding-top: 50px;
+  text-align: center;
+}
+.left-menu li{
   padding-top: 15px;
 }
-.background-logo {
+.left-logo {
   color:white;
-  text-align: center;
   font-size:18px;
   margin-top: 15px;
+  text-align: center;
 }
-.background-logo a i{
+.left-logo a i{
   color: white;
   font-size: 18px;
+}
+.right{
+  float:left;
+  font-size: 30px;
+  margin: 25px;
+  width: 1000px;
+}
+.caption-menu{
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 25px;
+  border-style: outset;
+  border-width: medium;
+}
+.caption-menu ul li{
+  padding: 8px;
+  color:black;
+}
+.caption-menu ul li strong{
+    font-weight: bold;
 }
