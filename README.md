@@ -1,2 +1,1 @@
-# PersonalWebsite
-Kişisel Blog
+Bu depoda Kişisel Blog Sayfamın içeriği bulunmaktadır.
