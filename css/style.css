@@ -1,65 +1,108 @@
 .clear {
   clear: both;
 }
-body{
-  width: 1366px;
+.container{
+  background-color: rgb(232, 237, 232);
+  box-sizing: border-box;
+  font-family: 'Solway', serif;
+  padding-right: 35px;
 }
-#left{
+
+header{
   background-image:url(https://andromeloji.files.wordpress.com/2015/08/gc3b6kyc3bczc3bc.gif?w=356);
   display: inline-block;
   float:left;
-  height:100%;
+  height: 100%;
 }
 a{
   color: white;
   text-decoration: none;
 }
-.left-content{
+.menu{
   color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   padding-top: 250px;
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
 }
-.left-menu{
+nav{
   color: white;
-  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   padding-top: 50px;
   text-align: center;
 }
-.left-menu li{
+nav ul li{
   padding-top: 15px;
 }
-.left-logo {
+.logo {
   color:white;
   font-size:18px;
   margin-top: 15px;
   text-align: center;
 }
-.left-logo a i{
+.logo a i{
   color: white;
   font-size: 18px;
 }
-.right{
+main{
+  display: inline-block;
   float:left;
   font-size: 30px;
   margin: 25px;
-  width: 1000px;
+  width: 750px;
 }
-.caption-menu{
+.about-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+article p{
+  font-size: 21px;
+  margin-top: 20px;
+}
+aside ul{
+  background-color: rgb(54, 56, 54);
+  color: white;
   display: inline-block;
+  float: right;
   font-size: 15px;
   margin-top: 25px;
-  border-style: outset;
-  border-width: medium;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  width: 250px;
 }
-.caption-menu ul li{
+aside ul li {
+  font-size: 18px;
   padding: 8px;
-  color:black;
 }
-.caption-menu ul li strong{
-    font-weight: bold;
+aside ul li i{
+  font-size: 1px;
+  margin-right: 8px;
+}
+aside ul li strong{
+  font-size: 21px;
+  font-weight: bold;
+}
+section {
+  background-color: rgb(54, 56, 54);
+  color: white;
+  display: inline-block;
+  float: right;
+  width: 250px;
+}
+section p{
+  font-size: 15px;
+  padding: 0 5px 23px 8px;
+}
+section h4{
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px 8px;
+  text-decoration: underline;
+}
+section h3{
+  font-size: 21px;
+  font-weight: bold;
+  padding: 15px 8px 0 8px;
 }
